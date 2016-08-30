@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Farmer's Market</title>
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/favicon.png" /> <!-- "Tractor" by Nashad Abdu, The Noun Project. http://bit.ly/2aUJD6u-->
+	<!-- Responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body>
+
+<main>
+
+<!-- HOME SCREEN ........................... -->
+	<div class="container-1">
+		<div class="first-view width">
+			<div class="title">
+				<div class="title-box">
+					<div>
+						<h1>Open Season</h1>
+					</div>
+					<div class="img-div">
+						<img src="images/open_market.png">
+					</div>
+				</div>
+			
+				<h2>Find fresh & local food at Toronto's farmer's markets, year-round.</h2>
+			</div>
+
+			<!-- FORM  -->
+			<div class="form-container">
+				<form id="marketsForm" name="marketsForm"> 
+					<label for="address">What is your address? </label>
+		        	<input type="text" class="address-input" id="address" name="address">
+
+		        	<label for="month">What month is it?</label>
+		        	<select name="select" id="month" name="month">
+		        		<option value="allMarkets" data-month="allMarkets">All Months</option>
+	  					<option value="January" data-month="January">January</option>
+	  					<option value="February" data-month="February">February</option> 
+	  					<option value="March" data-month="March">March</option>
+	  					<option value="April" data-month="April">April</option> 
+	  					<option value="May" data-month="May">May</option> 
+	  					<option value="June" data-month="June">June</option> 
+	  					<option value="July" data-month="July">July</option> 
+	  					<option value="August" data-month="August">August</option>
+	  					<option value="September" data-month="September">September</option> 
+	  					<option value="October" data-month="October">October</option> 
+	  					<option value="November" data-month="November">November</option>
+	  					<option value="December" data-month="December">December</option> 
+					</select>	
+
+		        	<input class="submit" type="submit" id="submit" value="Find A Market!">
+		     	</form>
+		    </div> <!-- /.form-container -->
+		</div> <!-- /.first-view -->
+	</div> <!-- /.container-1 -->
+
+<!-- MAP .................................... -->
+	<div class="container-2">
+		<div class="map-container width">
+			<div class="map-info"> 
+				<h3>Toronto's Farmer's Markets</h3>
+				<div class="map-legend">
+					<div class="map-icon"> 
+						<img src="images/farmers-market-marker.png">
+						<p>Farmer's Market</p>
+					</div> 
+					<div class="map-icon">
+						<img src="images/userMarker.png">
+						<p>Your Location</p>
+					</div>
+				</div> <!-- /.map-legend -->
+			</div> <!-- /.map-info -->	
+	    	<div id="mapid"></div>
+	    </div> <!-- /.map-container -->
+	</div> <!-- /.container-2 -->
+
+<!-- SEASONAL PRODUCE ......................... -->
+	<div class="container-3 width">
+		<div class="in-season-container width">
+			<div class="in-season">
+				<h3>What's In Season?</h3>
+			    <ul>
+			    </ul>
+			</div>
+		</div> <!-- /.in-season-container -->
+	</div> <!-- /. container-3 -->
+
+<!-- LOADING SCREEN ......................... -->
+	<div class="loading-screen">
+		<div class="loading-container">
+			<iframe src="//giphy.com/embed/fto8hzG9TRxII" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+		</div> <!-- /.svg.container -->
+	</div> <!-- /.loading-screen -->
+
+</main> <!-- /.container -->
+
+
+<!-- SCRIPTS -->
+
+	<!-- Google Maps -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxpMNlZUKogDFV14OlU3qgKd5Ok7aSnGk"></script>
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Smooth Scroll -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.7.2/jquery.smooth-scroll.min.js"></script>
+	<!-- JavaScript -->
+	<script src="js/scripts.js"></script>
+	
+</body>
+</html>

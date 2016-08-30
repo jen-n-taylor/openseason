@@ -1,0 +1,23 @@
+
+// ---------------- LOADING SCREEN ----------------
+
+.loading-screen {
+	background: url(../images/wood.jpg);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	display: none;
+}
+
+.loading-container {
+	height: 100vh;
+	width: 100vw;
+}
+
+.loading-screen iframe {
+	margin-left:auto; 
+	margin-right:auto; 
+	display:block;
+	margin-top: 50px;
+}

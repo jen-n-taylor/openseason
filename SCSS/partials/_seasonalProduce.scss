@@ -1,0 +1,41 @@
+
+// ------------- SEASONAL PRODUCE -------------
+
+.in-season-container {
+	width: 100%;
+	font-family: $text-font;
+	background-color: white;
+	padding: 25px 0;
+	display: none;
+}
+
+.in-season {
+	text-align: center;
+	font-family: $text-font;
+	margin: 0 auto;
+	width: 100%;
+	text-decoration: none;
+	display: none;
+	padding-bottom: 30px;
+}
+
+.in-season h3 {
+	padding-bottom: 30px;
+}
+
+.in-season ul {
+	list-style-type: none;
+	height: 300px;
+	padding: 0;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.in-season ul li {
+	padding: 15px 35px;
+	font-weight: 600;
+	font-color: $main-color;
+}
+

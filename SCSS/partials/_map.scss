@@ -1,0 +1,73 @@
+
+// ---------------- MAP ----------------
+
+#mapid { 
+	margin: 0 auto;
+	height: 500px; 
+	width: 90%;
+}
+
+.map-container {
+	background-color: $background-color;
+	display: none;
+	padding-bottom: 40px;
+}
+
+.map-info h3 {
+	font-family: $header-font;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: $main-color;
+	margin: 0 auto;
+	padding: 30px 0 0 0;
+}
+
+.map-legend {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+	max-width: 75%;
+	margin: 0 auto;
+	padding: 20px 0 ;
+}
+
+.map-icon {
+	text-align: center;
+}
+
+.map-icon p {
+	font-family: $text-font;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+.map-icon img {
+	height: 36px;
+	width: 29px;
+}
+
+.map-address, .map-hours{
+	font-family: $text-font;
+	font-size: 12px;
+	text-align: left;
+	color: $main-color;
+	margin: 0;
+	padding: 5px 0;
+}
+
+.map-hours {
+	padding-bottom: 10px;
+}
+
+.map-url {
+	font-family: $text-font;
+	font-size: 12px;
+	text-align: left;
+	color: darkslategrey;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}

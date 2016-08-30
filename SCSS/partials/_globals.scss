@@ -1,0 +1,78 @@
+
+// ---------------- GLOBALS ----------------
+
+// COLORS -------------------------------
+$background-color: white;
+$main-color: #206c45;
+$font-color: #F5F5F5;
+$subheader-color: #f4c209;
+$secondary-color: #d6ae2a;
+$tertiary-color: #df9125;
+
+// FONTS ---------------------------------
+
+// Amatic SC
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+
+$header-font: 'Amatic SC', sans-serif;
+
+// Open Sans
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300);
+
+$text-font: 'Open Sans', sans-serif;
+
+// LAYOUT --------------------------------
+
+main {
+	background: url(../images/wood.jpg);
+	background-size: 100% 100%;
+}
+
+.container-1 {
+	padding: 50px 0;
+	position: relative;
+	height: 100vh;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+}
+
+.container-2, .container-3 {
+	padding-bottom: 50px;
+}
+
+
+.width {
+	width: 700px;
+	margin: 0 auto;
+}
+
+// HEADERS -------------------------------
+
+h1 {
+	font-family: $header-font;
+	font-size: 87px;
+	color: $main-color;
+	letter-spacing: 2px;
+	margin: 0;
+	position: relative;
+}
+
+h2 {
+	font-family: $text-font;
+	color: $main-color;	
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+h3 {
+	font-family: $text-font;
+	font-size: 25px;
+	font-weight: 500;
+	color: $main-color;
+	margin: 0;
+	padding: 30px 0 0 0;
+	letter-spacing: 1px;
+}
+

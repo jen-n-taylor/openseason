@@ -1,0 +1,461 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300);
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: \201C \201D \2018 \2019;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, figure {
+  margin: 0;
+}
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+main {
+  background: url(../images/wood.jpg);
+  background-size: 100% 100%;
+}
+
+.container-1 {
+  padding: 50px 0;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-2, .container-3 {
+  padding-bottom: 50px;
+}
+
+.width {
+  width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 87px;
+  color: #206c45;
+  letter-spacing: 2px;
+  margin: 0;
+  position: relative;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  color: #206c45;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #206c45;
+  margin: 0;
+  padding: 30px 0 0 0;
+  letter-spacing: 1px;
+}
+
+.first-view {
+  background-color: white;
+  border-radius: 3px;
+  padding: 20px 0;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-div {
+  height: 65px;
+}
+
+.title-box img {
+  height: 100%;
+  padding-left: 15px;
+}
+
+.title h2 {
+  width: 430px;
+  margin: 0 auto;
+  border-bottom: 2px solid #206c45;
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+
+.loading-screen {
+  background: url(../images/wood.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  display: none;
+}
+
+.loading-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.loading-screen iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 50px;
+}
+
+#mapid {
+  margin: 0 auto;
+  height: 500px;
+  width: 90%;
+}
+
+.map-container {
+  background-color: white;
+  display: none;
+  padding-bottom: 40px;
+}
+
+.map-info h3 {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #206c45;
+  margin: 0 auto;
+  padding: 30px 0 0 0;
+}
+
+.map-legend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.map-icon {
+  text-align: center;
+}
+
+.map-icon p {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+.map-icon img {
+  height: 36px;
+  width: 29px;
+}
+
+.map-address, .map-hours {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  text-align: left;
+  color: #206c45;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.map-hours {
+  padding-bottom: 10px;
+}
+
+.map-url {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  text-align: left;
+  color: darkslategrey;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.in-season-container {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  padding: 25px 0;
+  display: none;
+}
+
+.in-season {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+  width: 100%;
+  text-decoration: none;
+  display: none;
+  padding-bottom: 30px;
+}
+
+.in-season h3 {
+  padding-bottom: 30px;
+}
+
+.in-season ul {
+  list-style-type: none;
+  height: 300px;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.in-season ul li {
+  padding: 15px 35px;
+  font-weight: 600;
+  font-color: #206c45;
+}
+
+.form-container {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+form {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+  width: 325px;
+}
+
+form label {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #206c45;
+  text-align: left;
+  padding: 25px 0 10px 0;
+}
+
+input {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  border: 2px solid #206c45;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+input:focus {
+  outline: none;
+  border: solid 2px #f5c200;
+}
+
+select {
+  -webkit-appearance: none;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  border: 2px solid #206c45;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  font-style: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding: 0 10px;
+  background-color: white;
+}
+
+select:focus {
+  outline: none;
+  border: solid 2px #f5c200;
+}
+
+input[type=submit] {
+  background: none;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #F5F5F5;
+  background-color: #206c45;
+  margin: 30px 0;
+  transition: all 0.5s;
+}
+
+input[type=submit]:hover, input[type=submit]:active {
+  color: #206c45;
+  background-color: #f5c200;
+  font-weight: 700;
+  border: 1px solid #f5c200;
+  letter-spacing: 2px;
+}

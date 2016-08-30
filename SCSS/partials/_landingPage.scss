@@ -1,0 +1,34 @@
+
+// ------------- LANDING PAGE -------------
+
+.first-view {
+	background-color: white;
+	border-radius: 3px;
+	padding: 20px 0;
+}
+
+// TITLE ---------------------
+
+.title-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-div {
+	height: 65px;
+}
+
+.title-box img {
+	height: 100%;
+	padding-left: 15px;
+}
+
+.title h2 {
+	width: 430px;
+	margin: 0 auto;
+	border-bottom: 2px solid $main-color;
+	padding: 20px 0 20px 0;
+	text-align: center;
+}
